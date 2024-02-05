@@ -11,4 +11,4 @@ url = "jdbc:postgresql://localhost:5432/attributes"
 
 [environments.cluster]
 locations = ["filesystem:/tmp/git/pgdb/metrics"]
-url = "jdbc:postgresql://postgresql:5432/attributes"
+url = "jdbc:postgresql://postgres@postgresql:5432/attributes"
