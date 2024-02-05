@@ -1,13 +1,14 @@
 [flyway]
-locations = ["filesystem:metrics"]
 createSchemas = true
+locations = ["filesystem:metrics"]
 
 [environments.default]
-locations = ["filesystem:metrics"]
 user = "postgres"
 
 [environments.localhost]
+locations = ["filesystem:metrics"]
 url = "jdbc:postgresql://localhost:5432/attributes"
 
 [environments.cluster]
-url = "jdbc:postgresql://postgres:5432/attributes"
+locations = ["filesystem:/tmp/pgdb/metrics"]
+url = "jdbc:postgresql://postgresql:5432/attributes"
