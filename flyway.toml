@@ -12,4 +12,4 @@ url = "jdbc:postgresql://localhost:5432/attributes"
 [environments.cluster]
 locations = ["filesystem:/tmp/git/pgdb/metrics"]
 user = "postgres"
-url = "jdbc:postgresql://postgresql:5432/attributes"
+url = "jdbc:postgresql://postgres-pfire-primary.pfire.svc:5432/attributes"
