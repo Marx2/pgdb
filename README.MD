@@ -1,7 +1,7 @@
 Run the following command to start the Flyway migration process:
 
+1. create database:
 
-1. create database 
 - createdb attributes
 - GRANT ALL ON ALL TABLES IN SCHEMA public TO postgres;
 
